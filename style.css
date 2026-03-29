@@ -159,7 +159,7 @@ h3 { font-size: 1.25rem; margin-bottom: 12px; }
 .navbar {
   position: fixed;
   top: 0; left: 0; right: 0;
-  height: 140px;
+  height: 160px;
   background-color: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--border-color);
@@ -186,12 +186,12 @@ h3 { font-size: 1.25rem; margin-bottom: 12px; }
   letter-spacing: -0.02em;
 }
 .logo-icon { color: var(--google-blue); font-size: 28px; }
-.logo-img { height: 110px; width: auto; max-width: 400px; object-fit: contain; }
+.logo-img { height: 130px; width: auto; max-width: 500px; object-fit: contain; }
 
 /* --- HERO SECTION --- */
 .hero {
   position: relative;
-  padding: 240px 20px 80px;
+  padding: 260px 20px 80px;
   text-align: center;
   overflow: hidden;
 }
@@ -586,7 +586,7 @@ h3 { font-size: 1.25rem; margin-bottom: 12px; }
   color: var(--text-primary);
   margin-bottom: 8px;
 }
-.footer-logo-img { height: 140px; margin-bottom: 32px; opacity: 0.9; }
+.footer-logo-img { height: 160px; margin-bottom: 32px; opacity: 0.9; }
 
 /* --- RESPONSIVE MEDIA QUERIES --- */
 @media (max-width: 900px) {
@@ -605,9 +605,9 @@ h3 { font-size: 1.25rem; margin-bottom: 12px; }
   :root {
     --section-padding: 60px 16px;
   }
-  .navbar { height: 100px; }
-  .logo-img { height: 75px; }
-  .hero { padding-top: 150px; padding-bottom: 60px; }
+  .navbar { height: 110px; }
+  .logo-img { height: 90px; }
+  .hero { padding-top: 160px; padding-bottom: 60px; }
   .hero-actions { flex-direction: column; width: 100%; }
   .hero-actions .btn { width: 100%; }
   .card-highlight { padding: 24px 16px; }
