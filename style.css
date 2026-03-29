@@ -233,6 +233,39 @@ h3 { font-size: 1.25rem; margin-bottom: 12px; }
   flex-wrap: wrap;
 }
 
+/* --- SOCIAL PROOF BANNER --- */
+.social-proof-banner {
+  padding: 40px 20px;
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  background-color: var(--surface-color);
+  position: relative;
+  z-index: 10;
+}
+.sp-title {
+  color: var(--text-secondary);
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 24px;
+}
+.sp-countries {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px 32px;
+}
+.sp-country {
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
 /* Abstract Background blob behind hero */
 .hero-bg-accent {
   position: absolute;
@@ -624,4 +657,5 @@ h3 { font-size: 1.25rem; margin-bottom: 12px; }
   .logo-img { height: 60px; max-width: 45vw; }
   .navbar { height: 80px; }
   .hero { padding-top: 120px; }
+  .sp-country { font-size: 1rem; }
 }
